@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="src/1665843987269638~c5_720x720.jpeg" alt="Foto de Juan Ignacio Otazo Carvajal">
+            <div class="info">
+                <h1>Juan Ignacio Otazo Carvajal</h1>
+                <h3>Estudiante de Ingeniería Civil en Computación e Informática</h3>
+                <ul>
+                    <li>Teléfono: 133</li>
+                    <li>Correo: a@a.cl</li>
+                    <li>Dirección: Marte</li>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <section class="section">
+                <h2>Presentación</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim velit, pretium porta finibus ac, cursus non urna. Vivamus sit amet tincidunt ex, vitae finibus justo. Donec ultrices ipsum sapien, sit amet condimentum ipsum pretium vel. Nullam tincidunt congue elit id luctus. Sed iaculis condimentum ornare. Integer et posuere sapien. Duis tempus, nunc eu ornare ornare, elit risus blandit magna, sed bibendum orci lectus non nulla. Proin mollis mauris et magna blandit tincidunt. Donec efficitur nunc eget diam venenatis, in vehicula purus ullamcorper. Donec non euismod arcu. Aliquam id sapien tristique, iaculis dui ac, molestie nulla. Nunc ultricies accumsan blandit.</p>
+            </section>
+    
+            <section class="section">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li>NASA -> Consulto (2020)</li>
+                    <li>KFC -> Cajero(2021)</li>
+                    <li>Interpol -> Miembro del comité ejecutivo (2018-2020)</li>
+                </ul>
+            </section>
+    
+            <section class="section">
+                <h2>Educación</h2>
+                <p>Universidad Central de Chile - 2021/actualidad</p>
+                <p>Curso de Desarrollo Web Udemy - En desarrollo</p>
+            </section>
+    
+            <section class="section skills">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>
+                        Python
+                        <div class="circles">
+                            <div class="circle filled"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        C++
+                        <div class="circles">
+                            <div class="circle filled"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        Php
+                        <div class="circles">
+                            <div class="circle filled"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </li>
+                    <li>
+                        Javascript
+                        <div class="circles">
+                            <div class="circle filled"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+    
+            <section class="section projects">
+                <h2>Proyectos</h2>
+                <ul>
+                    <li><a href="https://magnificent-treacle-a79af0.netlify.app/" target="_blank">Blog de Café - Curso Udemy</a></li>
+                    <li><a href="https://ephemeral-cannoli-ade43e.netlify.app/" target="_blank">FrontEnd Store - Curso Udemy</a></li>
+                </ul>
+            </section>
+    
+            <section class="section languages">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Español - Nativo</li>
+                    <li>Inglés - Bajo</li>
+                </ul>
+            </section>
+            
+            <section class="section contact">
+                <h2>Contacto</h2>
+                <form id="contactForm">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+                <p id="statusMessage"></p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('-mDW_NUtjpNDM899v')</script>
+</body>
+</html>
